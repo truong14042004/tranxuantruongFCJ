@@ -24,10 +24,10 @@ FCJ 3-Month Worklog:
 
 **Week 8:** [Preparing and setting up resources for the workshop, Optimizing EC2 costs with Lambda](1.8-week8/)
 
-**Week 9:** [Work I...](1.9-week9/)
+**Week 9:** [Work I...](1.9-week9/week9_index/)
 
-**Week 10:** [Work L...](1.10-week10/)
+**Week 10:** [Work L...](1.10-week10/week10_index/)
 
-**Week 11:** [Work M...](1.11-week11/)
+**Week 11:** [Work M...](1.11-week11/week11_index/)
 
-**Week 12:** [Work N...](1.12-week12/)
+**Week 12:** [Work N...](1.12-week12/week12_index/)

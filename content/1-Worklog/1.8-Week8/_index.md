@@ -22,6 +22,13 @@ pre: " <b> 1.8. </b> "
 
 ### Week 8 Achievements:
 
+* Successfully prepared all necessary resources and tools for workshop creation (Hugo Theme, Snagit, Active Presenter, Draw.io).
 
+* Mastered EC2 cost optimization techniques using Lambda functions.
 
+* Implemented automated EC2 instance start/stop scheduling with Lambda.
+
+* Integrated Slack notifications for instance management alerts.
+
+* Learned proper EC2 instance tagging and resource organization.
 
