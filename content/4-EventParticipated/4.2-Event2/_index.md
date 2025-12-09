@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+
 
 # Summary Report: “DevOps on AWS”
 
@@ -21,7 +19,9 @@ pre: " <b> 4.2. </b> "
 
 ### Speakers
 
-- AWS Specialist / Solutions Architect for DevOps & Containers (names TBD)
+-AWS Solutions Architect Team – DevOps Specialists
+-AWS Container Services Experts
+-AWS Observability and Cloud Operations Team
 
 ### Key Highlights
 

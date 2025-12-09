@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 # Bài thu hoạch “DevOps on AWS”
 
@@ -21,7 +19,9 @@ pre: " <b> 4.2. </b> "
 
 ### Danh Sách Diễn Giả
 
-- AWS Specialist / Solutions Architect về DevOps & Containers (đang cập nhật tên cụ thể)
+- AWS Solutions Architect Team – DevOps Specialists
+- AWS Container Services Experts
+- AWS Observability and Cloud Operations Team
 
 ### Nội Dung Nổi Bật
 
