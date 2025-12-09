@@ -11,7 +11,7 @@ pre: " <b> 3.1. </b> "
 
 # AWS Partner Network (APN) Blog
 
-## Powering European Innovation: Partner Solutions for AWS European Sovereign Cloud
+## Powering European Innovation:    Partner Solutions for AWS European Sovereign Cloud
 
 *by Max Peterson on 02 JUL 2025*  
 *In: APN Launches, Partner Solutions*
