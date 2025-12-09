@@ -1,57 +1,41 @@
 ---
 title: "Week 11 Worklog"
-date: 2025-09-30
-weight: 2
+date: 2025-11-13
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 11 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Write Frontend to call API Gateway.
+* Deploy applications using AWS SAM.
+* Authentication with Amazon Cognito.
+* Set up static website with SSL on S3.
+* CI/CD with CodePipeline.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be implemented this week:
+| Day | Tasks                                                                                                                                                                                   | Start Date | Completion Date | Resource                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Serverless - Guide to writing Frontend to call API Gateway: <br>&emsp;  + Deploy front-end <br>&emsp; + Deploy Lambda function <br>&emsp; + Configure API Gateway <br>&emsp; + Test API with Postman <br>&emsp; + Test API with front-end <br>&emsp;  + Clean up | 13/11/2025   | 13/11/2025      |  https://000079.awsstudygroup.com/vi/ |
+| 3   | - Lab-Serverless - Deploy application using SAM: <br>&emsp;  + Deploy front-end <br>&emsp; + Deploy Lambda function <br>&emsp; + Configure API Gateway <br>&emsp; + Test API with Postman <br>&emsp; + Test API with front-end <br>&emsp;  + Clean up | 14/11/2025   | 14/11/2025      |  https://000080.awsstudygroup.com/vi/ |
+| 4   | - Lab-Serverless - Authentication with Amazon Cognito: <br>&emsp;  + Preparation <br>&emsp; + Create User Pool <br>&emsp; + Create API and Lambda function <br>&emsp; + Test with front-end <br>&emsp;  + Clean up | 15/11/2025   | 15/11/2025      |  https://000081.awsstudygroup.com/vi/ |
+| 5   | - Lab-Serverless - Set up static website with SSL on S3: <br>&emsp;  + Preparation <br>&emsp; + Create queue and SNS topic <br>&emsp; + Create API and Lambda function <br>&emsp; + Test operations <br>&emsp;  + Clean up | 17/11/2025   | 17/11/2025      |  https://000082.awsstudygroup.com/vi/ |
+| 6   | - Serverless - Handle orders with SQS-SNS: <br>&emsp;  + Preparation <br>&emsp; + Create domain and Hosted zone<br>&emsp; + Request SSL certificate <br>&emsp; + Create CloudFront distribution <br>&emsp;  + Clean up | 18/11/2025   | 18/11/2025      |  https://000083.awsstudygroup.com/vi/ |
 
 
 ### Week 11 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Serverless – Frontend calling API Gateway 
+  * Successfully deployed frontend and connected with backend.
+  * Lambda function operates with correct logic.
+  * API Gateway configured correctly (method, integration, CORS).
+  * Successfully tested API via Postman and frontend interface.
 
-* Successfully created and configured an AWS Free Tier account.
+* Deploy application using AWS SAM
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Authentication with Amazon Cognito
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Set up static website with SSL on S3
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Handle orders with SQS-SNS
