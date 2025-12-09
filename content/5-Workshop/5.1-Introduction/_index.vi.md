@@ -8,7 +8,7 @@ pre: " <b> 5.1 </b> "
 
 ### Kiến trúc
 
-![Diagram](workshop.png)
+![Diagram](/5-workshop/5.1-introduction/workshop.png)
 
 ### Amazon ECR (Elastic Container Registry)
 
