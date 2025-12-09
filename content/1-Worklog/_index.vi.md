@@ -25,10 +25,10 @@ Worklog FCJ 3 tháng:
 
 **Tuần 8:** [Chuẩn bị và cài đặt tài nguyên làm workshop, Tối ưu chi phí EC2 với Lambda](1.8-week8/)
 
-**Tuần 9:** [Cấp quyền truy cập dịch vụ AWS cho ứng dụng với IAM Role, Tìm hiểu về hệ thống cơ sở dữ liệu và dịch vụ Database trên AWS, Triển khai Amazon RDS, Xây dựng Data Lake trên AWS và Amazon DynamoDB](1.9-week9/week9_index/)
+**Tuần 9:** [Cấp quyền truy cập dịch vụ AWS cho ứng dụng với IAM Role, Tìm hiểu về hệ thống cơ sở dữ liệu và dịch vụ Database trên AWS, Triển khai Amazon RDS, Xây dựng Data Lake trên AWS và Amazon DynamoDB](1.9-week9/)
 
-**Tuần 10:** [Làm việc với AWS Glue & Amazon Athena, Amazon DynamoDB, Analytics on AWS Workshop, Di chuyển ứng dụng Monolith lên môi trường AWS và Serverless với Lambda tương tác S3 và DynamoDB](1.10-week10/week10_index/)
+**Tuần 10:** [Làm việc với AWS Glue & Amazon Athena, Amazon DynamoDB, Analytics on AWS Workshop, Di chuyển ứng dụng Monolith lên môi trường AWS và Serverless với Lambda tương tác S3 và DynamoDB](1.10-week10/)
 
-**Tuần 11:** [Viết Frontend gọi API Gateway, Triển khai ứng dụng với AWS SAM, Xác thực với Amazon Cognito, Thiết lập website tĩnh có SSL trên S3 và Xử lý đơn hàng với SQS-SNS](1.11-week11/week11_index/)
+**Tuần 11:** [Viết Frontend gọi API Gateway, Triển khai ứng dụng với AWS SAM, Xác thực với Amazon Cognito, Thiết lập website tĩnh có SSL trên S3 và Xử lý đơn hàng với SQS-SNS](1.11-week11/)
 
-**Tuần 12:** [Serverless CI/CD với CodePipeline và Hoàn thành Workshop](1.12-week12/week12_index/)
+**Tuần 12:** [Serverless CI/CD với CodePipeline và Hoàn thành Workshop](1.12-week12/)
