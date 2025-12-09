@@ -25,10 +25,10 @@ Hãy bắt đầu hành trình tự động hóa việc phân phối container i
 
 ### Nội dung chính
 
-1. [Giới thiệu](Introduction/)
-2. [Chuẩn bị](Preraration/)
-3. [Tạo Repository](CreateRepository/)
-4. [Tạo Code Build](CreateCodeBuild/)
-5. [Tạo Code PileLine](CreateCodePileLine/)
-6. [Kết quả kiểm tra](CreateCodePileLine/)
-7. [Dọn dẹp](CleanUp/)
+1. [Giới thiệu](5.1-Introduction/)
+2. [Chuẩn bị](5.2-Preparation/)
+3. [Tạo Repository](5.3-CreateRepository/)
+4. [Tạo Code Build](5.4-CreateCodeBuild/)
+5. [Tạo Code Pipeline](5.5-CreateCodePipeline/)
+6. [Kết quả kiểm tra](5.6-TestResult/)
+7. [Dọn dẹp](5.7-CleanUp/)

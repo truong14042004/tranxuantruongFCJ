@@ -25,10 +25,10 @@ Let’s begin our journey into automating container image delivery with CodePipe
 
 ### Main content
 
-1. [Introduction](Introduction/)
-2. [Preparation](Preraration/)
-3. [Create Repository](CreateRepository/)
-4. [Create Code Build](CreateCodeBuild/)
-5. [Create Code PileLine](CreateCodePileLine/)
-6. [Test Result](CreateCodePileLine/)
-7. [Clean up](CleanUp/)
+1. [Introduction](5.1-Introduction/)
+2. [Preparation](5.2-Preparation/)
+3. [Create Repository](5.3-CreateRepository/)
+4. [Create Code Build](5.4-CreateCodeBuild/)
+5. [Create Code Pipeline](5.5-CreateCodePipeline/)
+6. [Test Result](5.6-TestResult/)
+7. [Clean up](5.7-CleanUp/)
