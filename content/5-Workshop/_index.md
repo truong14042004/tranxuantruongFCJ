@@ -1,31 +1,37 @@
----
+﻿---
 title: "Workshop"
-date: 2025-09-30
+date: 2025-12-09T12:00:00Z
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# Secure Hybrid Access to S3 using VPC Endpoints
+# Setup Code PileLine and Code Build for Elastic Container Registry
 
-#### Overview
+### Overview
 
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
+Setup CodePipeline and CodeBuild for Amazon ECR is a streamlined and automated approach to building, testing, and deploying container images into your Elastic Container Registry. This workshop will guide you through the essential steps to create a fully automated CI/CD workflow
 
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
+Through this workshop, you will:
 
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
+- Understand the core concepts of CodePipeline and CodeBuild
 
-#### Content
+- Learn how to configure a secure and automated pipeline
 
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequiste](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-S3-vpc/)
-4. [Access S3 from On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
-6. [Clean up](5.6-Cleanup/)
+- Explore how CodeBuild builds and pushes Docker images to ECR
+
+- Practice setting up buildspec files for containerized applications
+
+- Automate the process of storing and updating images in ECR
+
+Let's begin our journey into automating container image delivery with CodePipeline and CodeBuild!
+
+### Main content
+
+1. [Introduction](5.1-Introduction/)
+2. [Preparation](5.2-Preparation/)
+3. [Create Repository](5.3-CreateRepository/)
+4. [Create Code Build](5.4-CreateCodeBuild/)
+5. [Create Code PileLine](5.5-CreateCodePipeline/)
+6. [Test Result](5.6-TestResult/)
+7. [Clean up](5.7-CleanUp/)
