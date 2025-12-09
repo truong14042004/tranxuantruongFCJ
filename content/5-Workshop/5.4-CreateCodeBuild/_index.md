@@ -51,15 +51,15 @@ artifacts:
 
 3. Open the [Amazon CodeBuild](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/start?region=ap-northeast-1)
 4. In the navigation pane, choose **Build projects**, then click **Create project**:
-   ![image1](/image1.png)
+   ![image1](image1.png)
 5. In the Create project console:
 
 - Enter project name
 - Add Source 1
 - In field Source provider choose GitHub (If you not have Credential then you need connect it)
 - Choose Repository
-  ![image2](/image2.png)
+  ![image2](image2.png)
 
 6. In Buildspec choose **Use a buildspec file**
-   ![image3](/image3.png)
+   ![image3](image3.png)
 7. Click **Create build project**
