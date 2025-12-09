@@ -16,10 +16,10 @@ Sau khi thiết lập hoàn tất, quy trình CI/CD tự động hoạt động 
 
 3. Thực thi giai đoạn Source
    CodePipeline lấy phiên bản mới nhất của mã nguồn và chuyển nó sang giai đoạn tiếp theo.
-   ![image1](/5-workshop/5.6-testresult/image1.png)
+   ![image1](./image1.png)
 4. Giai đoạn Build (CodeBuild)
    CodeBuild kéo mã nguồn, đọc buildspec.yml, đăng nhập vào ECR, xây dựng Docker image, gắn thẻ và đẩy nó lên kho ECR tương ứng.
    (bạn có thể xem quá trình trong pipeline)
-   ![image2](/5-workshop/5.6-testresult/image2.png)
+   ![image2](./image2.png)
 5. Xuất bản Image lên ECR
    Docker image mới được xây dựng sẽ được lưu trữ và phiên bản hóa trong Amazon ECR.

@@ -51,15 +51,15 @@ artifacts:
 
 3. Mở [Amazon CodeBuild](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/start?region=ap-northeast-1)
 4. Trong ngăn điều hướng, chọn **Build projects**, sau đó nhấp **Create project**:
-   ![image1](/5-workshop/5.4-createcodebuild/image1.png)
+   ![image1](./image1.png)
 5. Trong giao diện Create project:
 
 - Nhập tên project
 - Thêm Source 1
 - Trong trường Source provider chọn GitHub (Nếu bạn chưa có Credential thì cần kết nối nó)
 - Chọn Repository
-  ![image2](/5-workshop/5.4-createcodebuild/image2.png)
+  ![image2](./image2.png)
 
 6. Trong Buildspec chọn **Use a buildspec file**
-   ![image3](/5-workshop/5.4-createcodebuild/image3.png)
+   ![image3](./image3.png)
 7. Nhấp **Create build project**
