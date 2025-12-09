@@ -1,6 +1,7 @@
 baseURL = "https://truong14042004.github.io/tranxuantruongFCJ/"
 relativeURLs = true
 canonifyURLs = true
+enableGitInfo = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
