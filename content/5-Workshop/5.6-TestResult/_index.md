@@ -16,10 +16,10 @@ Once the setup is complete, the automated CI/CD workflow operates as follows:
 
 3. Source Stage Executes
    CodePipeline fetches the latest version of the source code and passes it to the next stage.
-   ![image1](image1.png)
+   ![image1](/5-workshop/5.6-testresult/image1.png)
 4. Build Stage (CodeBuild)
    CodeBuild pulls the source code, reads the buildspec.yml, logs in to ECR, builds the Docker image, tags it, and pushes it to the correct ECR repository.
    (you can see process in pipeline)
-   ![image2](image2.png)
+   ![image2](/5-workshop/5.6-testresult/image2.png)
 5. Image Published to ECR
    The newly built Docker image is stored and versioned in Amazon ECR.
