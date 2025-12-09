@@ -1,5 +1,5 @@
 ﻿---
-title: "Workshop"
+title: "5. Workshop"
 weight: 5
 ---
 
@@ -7,7 +7,7 @@ weight: 5
 
 ### Overview
 
-Setup CodePipeline and CodeBuild for Amazon ECR is a streamlined and automated approach to building, testing, and deploying container images into your Elastic Container Registry. This workshop will guide you through the essential steps to create a fully automated CI/CD workflow.
+Setting up CodePipeline and CodeBuild for Amazon ECR is a sensible and automated approach to building, testing, and deploying container images to your Elastic Container Registry. This workshop will guide you through the essential steps to create a fully automated CI/CD pipeline.
 
 Through this workshop, you will:
 
@@ -17,7 +17,7 @@ Through this workshop, you will:
 - Practice setting up buildspec files for containerized applications
 - Automate the process of storing and updating images in ECR
 
-Let's begin our journey into automating container image delivery with CodePipeline and CodeBuild!
+Let's begin your journey to automate container image delivery with CodePipeline and CodeBuild!
 
 ### Main content
 
@@ -27,4 +27,4 @@ Let's begin our journey into automating container image delivery with CodePipeli
 4. [Create Code Build](5.4-CreateCodeBuild/)
 5. [Create Code PileLine](5.5-CreateCodePipeline/)
 6. [Test Result](5.6-TestResult/)
-7. [Clean up](5.7-CleanUp/)
+7. [Clean Up](5.7-CleanUp/)
